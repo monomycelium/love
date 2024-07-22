@@ -8,6 +8,7 @@
 int main(int argc, char **argv) {
     if (argc != 3) {
         std::fprintf(stderr, "usage: %s <NAME_ONE> <NAME_TWO>\n", argv[0]);
+        std::printf("\n%s: find the chances of success in a relationship using the name of each party.\n", argv[0]);
         return EXIT_FAILURE;
     }
 
